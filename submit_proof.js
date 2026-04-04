@@ -40,9 +40,9 @@ async function run() {
         events.on(ZkVerifyEvents.IncludedInBlock, (eventData) => {
             console.log("");
             console.log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
-            console.log("✅ SUCCESS: Proof Verified on zkVerify!");
-            console.log("🔗 Transaction Hash:", eventData.txHash);
-            console.log("📊 Block Hash:", eventData.blockHash);
+            console.log("SUCCESS: Proof Verified on zkVerify!");
+            console.log("Transaction Hash:", eventData.txHash);
+            console.log("Block Hash:", eventData.blockHash);
             console.log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
             
             // Close the session and exit once finished
@@ -51,12 +51,12 @@ async function run() {
 
         // Handle potential errors during submission
         events.on(ZkVerifyEvents.Error, (error) => {
-            console.error("❌ Blockchain Error:", error);
+            console.error("Blockchain Error:", error);
             process.exit(1);
         });
 
     } catch (error) {
-        console.error("❌ Script Error:", error.message);
+        console.error("Script Error:", error.message);
         process.exit(1);
     }
 }
