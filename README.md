@@ -21,8 +21,7 @@ The "Sentinel" flow consists of four distinct cryptographic stages:
 * **Circuit Language:** Circom 2.1
 * **Proving Engine:** SnarkJS (Groth16)
 * **Wallet Provider:** **SubWallet** (Identity Management)
-* **Gas Infrastructure:** Polkadot/Substrate Testnet Faucet
-* **Verification Environment:** [INSERT YOUR TESTNET NAME, e.g., Westend or Rococo]
+* **Gas Infrastructure:** Testnet Faucet
 
 ---
 
