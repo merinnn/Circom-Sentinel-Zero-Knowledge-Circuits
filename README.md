@@ -30,11 +30,11 @@ The "Sentinel" flow consists of four distinct cryptographic stages:
 
 ### 1. Wallet Integration & Identity
 *Description: Managing the cryptographic identity and signing the verification request via SubWallet.*
-> ![SubWallet Transaction](./subwallet_ss.png)
+> ![SubWallet Transaction](Screenshot%202026-04-01%20215253.png)
 
 ### 2. Final Verification Output
 *Description: The "Success" terminal output showing the proof has been cryptographically validated on-chain.*
-> ![Final Verification](./final_proof_ss.png)
+> ![Final Verification](Screenshot%202026-04-01%20222331.png)
 
 ---
 
